@@ -1,0 +1,144 @@
+* {
+}
+html {
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: linear-gradient(
+    rgba(102, 0, 255, 0.3) 0%, rgba(63, 8, 122, 0.462) 50%,
+    rgb(42, 27, 64) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header{
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+#backgroundimg {
+    width: 100%;
+    height: 600px;
+    margin: 0%;
+    left: 200px;
+}
+
+nav{
+    padding-top: 1px;
+    margin-right: 20px;
+    /* float: right; */
+    font-size: 30px;
+}
+#navbar {
+    position: absolute;
+    right: 100px;
+    /* margin: 0 auto; */
+    background-origin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+h1 {
+    text-align: left;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 30px;
+    position: absolute;
+}
+h2 {
+    color: white ;
+    border-right: 10px solid lightblue;
+    width: 250px;
+    text-align: center;
+    display: block;
+    font-size: 200%;
+}
+
+
+section {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+section p {
+    margin: 0 auto;
+    border-left: 25%;
+    width: 900px;
+    text-align: center;
+    color: white;
+}
+main{
+    min-height: 70vh;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+figure{
+    width: 365px;
+    height: 300px;
+    background-color: lightblue;
+    border: 8px solid lightblue;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 7px;
+    position: relative;
+    border-radius: 8px;
+}
+h3 {
+    position: absolute;
+    bottom: 50%;
+    background-color: lightblue;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid lightblue;
+    border-right: 3px solid lightblue;
+    color: rgb(55, 53, 53);
+    border-radius: 0 8px 8px 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 8px;
+}
+#firstcard{
+    width: 744px;
+}
+#firstcard img {
+    width: 726px;
+    object-fit: cover;
+}
+ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
